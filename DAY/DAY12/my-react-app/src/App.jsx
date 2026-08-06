@@ -1,4 +1,4 @@
-
+import  { HelloWorld } from "./components/HelloWorld"
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
@@ -9,8 +9,7 @@ function App() {
 
   return (
     <div>
-      <h1>Hello World</h1>
-      <h3>welcome to my first React app</h3>
+      <HelloWorld />
     </div>
   )
 }
