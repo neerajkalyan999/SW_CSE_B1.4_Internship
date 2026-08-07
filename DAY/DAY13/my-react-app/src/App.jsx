@@ -11,6 +11,9 @@ import NameInput from "./components/StateThree";
 
 import ClickDemo from "./components/EventHandling";
 
+import FormDemo from "./components/EventHandlingTwo";
+
+
 
 const name = "Amay";
 const isLoggedIn = false;
@@ -50,6 +53,7 @@ function App() {
       <NameInput />
 
         <ClickDemo/>
+         <FormDemo/>
     </>
     
   )
