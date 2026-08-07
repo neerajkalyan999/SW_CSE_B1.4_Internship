@@ -13,6 +13,8 @@ import ClickDemo from "./components/EventHandling";
 
 import FormDemo from "./components/EventHandlingTwo";
 
+import ActionButtons from "./components/EventHandlingThree";
+
 
 
 const name = "Amay";
@@ -54,6 +56,7 @@ function App() {
 
         <ClickDemo/>
          <FormDemo/>
+              <ActionButtons/>
     </>
     
   )
